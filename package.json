@@ -1,6 +1,6 @@
 {
   "name": "@johanbook/eslint-plugin-commented-exports",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Forces exports to be commented",
   "keywords": [
     "eslint",
@@ -12,7 +12,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run lint && npm run test:ci"
+      "pre-push": "npm run test"
     }
   },
   "lint-staged": {
@@ -38,5 +38,8 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
