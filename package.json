@@ -1,5 +1,5 @@
 {
-  "name": "@johanbook/eslint-plugin-commented-exports",
+  "name": "eslint-plugin-commented-exports",
   "version": "0.0.1",
   "description": "Forces exports to be commented",
   "keywords": [
